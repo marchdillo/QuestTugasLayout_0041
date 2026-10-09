@@ -36,3 +36,7 @@ data class DataOrang(
     val cursive: Boolean = false
 )
 
+private val daftarOrang = listOf(
+
+)
+
