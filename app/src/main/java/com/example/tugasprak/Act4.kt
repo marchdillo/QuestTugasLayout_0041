@@ -111,3 +111,13 @@ private fun Logo() {
     )
 }
 
+// Fungsi utama
+@Composable
+fun Act4(modifier: Modifier = Modifier) {
+    Column(
+        modifier = modifier
+            .fillMaxSize()
+            .padding(top = dimensionResource(R.dimen.padding_atas)),
+        horizontalAlignment = Alignment.CenterHorizontally
+    )
+    }
