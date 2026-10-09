@@ -27,3 +27,8 @@ import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.sp
 
+// Data tiap card (semua nilai berupa ID resource)
+data class DataOrang(
+
+)
+
