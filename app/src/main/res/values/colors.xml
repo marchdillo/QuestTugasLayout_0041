@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="card_0_bg">#FF5F5B5B</color>
+    <color name="card_1_bg">#FF7B3FC4</color>
+    <color name="card_2_bg">#FF0000FF</color>
+    <color name="card_3_bg">#FF008000</color>
+
+    <color name="teks_nama">#FFFFFFFF</color>
+    <color name="teks_telp">#FF00FFFF</color>
+    <color name="teks_alamat_kuning">#FFFFFF00</color>
+    <color name="teks_alamat_putih">#FFFFFFFF</color>
+</resources>
