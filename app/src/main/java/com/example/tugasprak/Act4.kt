@@ -136,6 +136,9 @@ fun Act4(modifier: Modifier = Modifier) {
             KartuItem(data = orang)
         }
 
+        // Dorong copyright ke bawah layar
+        Spacer(modifier = Modifier.weight(1f))
+
 
     }
 }
