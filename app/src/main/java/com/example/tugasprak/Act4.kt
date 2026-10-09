@@ -100,3 +100,14 @@ fun KartuItem(data: DataOrang, modifier: Modifier = Modifier) {
     }
 }
 
+@Composable
+private fun Logo() {
+    Image(
+        painter = painterResource(R.drawable.logo_umy),
+        contentDescription = stringResource(R.string.desc_logo),
+        modifier = Modifier
+            .size(dimensionResource(R.dimen.logo_size))
+            .padding(dimensionResource(R.dimen.logo_padding))
+    )
+}
+
