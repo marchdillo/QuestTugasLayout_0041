@@ -45,3 +45,7 @@ private val daftarOrang = listOf(
 
 // Widget Card: 1 fungsi terpisah yang dipakai oleh semua card
 @Composable
+fun KartuItem(data: DataOrang, modifier: Modifier = Modifier) {
+
+}
+
