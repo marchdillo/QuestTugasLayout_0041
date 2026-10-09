@@ -17,7 +17,11 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
-
+            TugasPrakTheme {
+                Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
+                    Act4(modifier = Modifier.padding(innerPadding))
+                }
+            }
         }
     }
 }
