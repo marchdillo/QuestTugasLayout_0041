@@ -125,6 +125,11 @@ fun Act4(modifier: Modifier = Modifier) {
             fontSize = dimensionResource(R.dimen.teks_prodi).value.sp,
             fontWeight = FontWeight.Bold
         )
+        Text(
+            text = stringResource(R.string.univ),
+            fontSize = dimensionResource(R.dimen.teks_univ).value.sp
+        )
+
 
     }
 }
