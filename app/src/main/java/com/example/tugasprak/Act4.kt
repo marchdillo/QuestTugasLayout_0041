@@ -37,6 +37,9 @@ data class DataOrang(
 )
 
 private val daftarOrang = listOf(
-
+    DataOrang(R.string.nama_0, R.string.alamat_0, R.color.card_0_bg, R.color.teks_alamat_kuning, cursive = true),
+    DataOrang(R.string.nama_1, R.string.alamat_1, R.color.card_1_bg, R.color.teks_alamat_kuning),
+    DataOrang(R.string.nama_2, R.string.alamat_2, R.color.card_2_bg, R.color.teks_alamat_putih),
+    DataOrang(R.string.nama_3, R.string.alamat_3, R.color.card_3_bg, R.color.teks_alamat_putih)
 )
 
