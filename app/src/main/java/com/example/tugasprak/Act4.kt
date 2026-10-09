@@ -56,5 +56,3 @@ fun KartuItem(data: DataOrang, modifier: Modifier = Modifier) {
         shape = RoundedCornerShape(dimensionResource(R.dimen.card_radius)),
         colors = CardDefaults.cardColors(containerColor = colorResource(data.warnaBg))
     )
-}
-
