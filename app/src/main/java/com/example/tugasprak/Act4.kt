@@ -29,6 +29,10 @@ import androidx.compose.ui.unit.sp
 
 // Data tiap card (semua nilai berupa ID resource)
 data class DataOrang(
-
+    @StringRes val nama: Int,
+    @StringRes val alamat: Int,
+    @ColorRes val warnaBg: Int,
+    @ColorRes val warnaAlamat: Int,
+    val cursive: Boolean = false
 )
 
