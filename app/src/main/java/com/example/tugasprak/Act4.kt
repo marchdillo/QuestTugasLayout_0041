@@ -55,4 +55,16 @@ fun KartuItem(data: DataOrang, modifier: Modifier = Modifier) {
             ),
         shape = RoundedCornerShape(dimensionResource(R.dimen.card_radius)),
         colors = CardDefaults.cardColors(containerColor = colorResource(data.warnaBg))
-    )
+    ) {
+        Row(
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(dimensionResource(R.dimen.card_padding_dalam)),
+            verticalAlignment = Alignment.CenterVertically,
+            horizontalArrangement = Arrangement.SpaceBetween
+        ) {
+
+        }
+    }
+}
+
