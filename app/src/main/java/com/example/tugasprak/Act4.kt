@@ -119,5 +119,12 @@ fun Act4(modifier: Modifier = Modifier) {
             .fillMaxSize()
             .padding(top = dimensionResource(R.dimen.padding_atas)),
         horizontalAlignment = Alignment.CenterHorizontally
-    )
+    ) {
+        Text(
+            text = stringResource(R.string.prodi),
+            fontSize = dimensionResource(R.dimen.teks_prodi).value.sp,
+            fontWeight = FontWeight.Bold
+        )
+
     }
+}
