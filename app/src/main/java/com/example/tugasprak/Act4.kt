@@ -63,7 +63,13 @@ fun KartuItem(data: DataOrang, modifier: Modifier = Modifier) {
             verticalAlignment = Alignment.CenterVertically,
             horizontalArrangement = Arrangement.SpaceBetween
         ) {
+            Logo()
 
+            Column(horizontalAlignment = Alignment.Start) {
+
+            }
+
+            Logo()
         }
     }
 }
