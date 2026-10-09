@@ -46,6 +46,15 @@ private val daftarOrang = listOf(
 // Widget Card: 1 fungsi terpisah yang dipakai oleh semua card
 @Composable
 fun KartuItem(data: DataOrang, modifier: Modifier = Modifier) {
-
+    Card(
+        modifier = modifier
+            .fillMaxWidth()
+            .padding(
+                horizontal = dimensionResource(R.dimen.card_padding_luar_h),
+                vertical = dimensionResource(R.dimen.card_padding_luar_v)
+            ),
+        shape = RoundedCornerShape(dimensionResource(R.dimen.card_radius)),
+        colors = CardDefaults.cardColors(containerColor = colorResource(data.warnaBg))
+    )
 }
 
