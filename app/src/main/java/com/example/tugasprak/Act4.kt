@@ -43,3 +43,5 @@ private val daftarOrang = listOf(
     DataOrang(R.string.nama_3, R.string.alamat_3, R.color.card_3_bg, R.color.teks_alamat_putih)
 )
 
+// Widget Card: 1 fungsi terpisah yang dipakai oleh semua card
+@Composable
