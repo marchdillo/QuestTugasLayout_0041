@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padding_atas">100dp</dimen>
+    <dimen name="padding_bawah">24dp</dimen>
+    <dimen name="jarak_header">25dp</dimen>
+
+    <dimen name="card_padding_luar_h">12dp</dimen>
+    <dimen name="card_padding_luar_v">6dp</dimen>
+    <dimen name="card_padding_dalam">8dp</dimen>
+    <dimen name="card_radius">8dp</dimen>
+    <dimen name="logo_size">60dp</dimen>
+    <dimen name="logo_padding">4dp</dimen>
+    <dimen name="jarak_kecil">4dp</dimen>
+
+    <dimen name="teks_prodi">35sp</dimen>
+    <dimen name="teks_univ">22sp</dimen>
+    <dimen name="teks_nama">20sp</dimen>
+    <dimen name="teks_nama_cursive">24sp</dimen>
+    <dimen name="teks_telp">12sp</dimen>
+    <dimen name="teks_alamat">12sp</dimen>
+    <dimen name="teks_copy">12sp</dimen>
+</resources>
