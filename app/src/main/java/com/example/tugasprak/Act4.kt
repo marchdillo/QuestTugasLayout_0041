@@ -73,7 +73,15 @@ fun KartuItem(data: DataOrang, modifier: Modifier = Modifier) {
                         fontFamily = FontFamily.Cursive,
                         color = colorResource(R.color.teks_nama)
                     )
+                } else {
+                    Text(
+                        text = stringResource(data.nama),
+                        fontSize = dimensionResource(R.dimen.teks_nama).value.sp,
+                        fontWeight = FontWeight.Bold,
+                        color = colorResource(R.color.teks_nama)
+                    )
                 }
+
             }
 
             Logo()
