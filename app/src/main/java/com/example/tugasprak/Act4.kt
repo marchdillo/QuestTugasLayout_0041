@@ -130,6 +130,8 @@ fun Act4(modifier: Modifier = Modifier) {
             fontSize = dimensionResource(R.dimen.teks_univ).value.sp
         )
 
+        Spacer(modifier = Modifier.height(dimensionResource(R.dimen.jarak_header)))
+
 
     }
 }
