@@ -81,7 +81,18 @@ fun KartuItem(data: DataOrang, modifier: Modifier = Modifier) {
                         color = colorResource(R.color.teks_nama)
                     )
                 }
-
+                Text(
+                    text = stringResource(R.string.telp),
+                    fontSize = dimensionResource(R.dimen.teks_telp).value.sp,
+                    color = colorResource(R.color.teks_telp),
+                    modifier = Modifier.padding(top = dimensionResource(R.dimen.jarak_kecil))
+                )
+                Text(
+                    text = stringResource(data.alamat),
+                    fontSize = dimensionResource(R.dimen.teks_alamat).value.sp,
+                    color = colorResource(data.warnaAlamat),
+                    modifier = Modifier.padding(top = dimensionResource(R.dimen.jarak_kecil))
+                )
             }
 
             Logo()
