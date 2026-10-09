@@ -12,3 +12,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.tugasprak.ui.theme.TugasPrakTheme
 
+class MainActivity : ComponentActivity() {
+
+}
+
