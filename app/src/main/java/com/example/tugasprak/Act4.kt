@@ -132,6 +132,10 @@ fun Act4(modifier: Modifier = Modifier) {
 
         Spacer(modifier = Modifier.height(dimensionResource(R.dimen.jarak_header)))
 
+        daftarOrang.forEach { orang ->
+            KartuItem(data = orang)
+        }
+
 
     }
 }
