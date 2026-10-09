@@ -15,7 +15,7 @@ import com.example.tugasprak.ui.theme.TugasPrakTheme
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-
+        enableEdgeToEdge()
 
     }
 }
