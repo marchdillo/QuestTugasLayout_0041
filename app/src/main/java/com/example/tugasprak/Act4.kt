@@ -66,7 +66,14 @@ fun KartuItem(data: DataOrang, modifier: Modifier = Modifier) {
             Logo()
 
             Column(horizontalAlignment = Alignment.Start) {
-
+                if (data.cursive) {
+                    Text(
+                        text = stringResource(data.nama),
+                        fontSize = dimensionResource(R.dimen.teks_nama_cursive).value.sp,
+                        fontFamily = FontFamily.Cursive,
+                        color = colorResource(R.color.teks_nama)
+                    )
+                }
             }
 
             Logo()
