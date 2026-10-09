@@ -139,6 +139,10 @@ fun Act4(modifier: Modifier = Modifier) {
         // Dorong copyright ke bawah layar
         Spacer(modifier = Modifier.weight(1f))
 
-
+        Text(
+            text = stringResource(R.string.copy),
+            fontSize = dimensionResource(R.dimen.teks_copy).value.sp,
+            modifier = Modifier.padding(bottom = dimensionResource(R.dimen.padding_bawah))
+        )
     }
 }
